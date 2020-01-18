@@ -1,0 +1,239 @@
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #01dad1;
+  text-decoration: none;
+}
+.App-link:hover{
+  color: white;
+}
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+.brand-logo{
+  width: 90%;
+  display: inline-flex;
+  font-size: 2em;
+  text-decoration: none;
+  font-family: auto;
+  color: white;
+  padding: 10px;
+}
+.card {
+  width: 30%;
+  height: auto;
+  min-height: 300px;
+  border: 1px solid #f7f1f1;
+  border-radius: 1px;
+  box-shadow: 0 3px 5px #ccc5c5;
+  margin: 20px auto;;
+}
+.todo-card{
+  margin: 10px;
+  width: 90%;
+  border: 1px solid #e8d8d8;
+  border-radius: 1px;
+  box-shadow: 0 3px 5px #ccc5c5;
+  padding: 10px;
+  background: #f1eef0;
+
+}
+.home-page-layout{
+  width: 100%;
+  display: flex;
+  background: #00142d;
+}
+.float{
+  display: flex;
+  float: right;
+  cursor:pointer;
+}
+.title{
+  padding: 10px;
+  margin-bottom: 5px;
+  color: blue;
+}
+.todo-cards{
+  margin: 10px;
+  width: 90%;
+  border: 1px solid #a9f9f9;
+  border-radius: 1px;
+  box-shadow: 0 3px 5px #696868;
+  padding: 10px;
+  background: #ffffff;
+
+}
+.todo-button{
+    margin: 10px;
+    width: 25%;
+    padding: 0 5px 5px 0px;
+    position: relative;
+    border-bottom: 1px solid #696969;
+    color: #969292;
+}
+.app-title{
+  justify-content: center;
+  display: flex;
+  font-size: 2.2em;
+  padding: 10px;
+  margin: 10px;
+  }
+  .input-modal{
+    display: block;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,.1);
+  }
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    top: 80px;
+    margin: auto;
+    padding: 0 0 20px;
+    border: 1px solid #888;
+    max-width: 600px;
+    min-width: 240px;
+    width: 95%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: .4s;
+    animation-name: animatetop;
+    animation-duration: .4s;
+    border-radius: 8px;
+    box-shadow: 0 2px 13px 0 rgba(0,0,0,.2);
+}
+.flex-column{
+  display: flex;
+    flex-direction: column;
+}
+.modal-header{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+.separator {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 0!important;
+}
+.modal-body {
+    padding: 2px 40px;
+}
+.form-content{
+  width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.input{
+ 
+  border: none;
+    border-bottom: 1px solid rgba(0,0,0,.12);
+    display: block;
+    font-size: 16px;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 4px 0;
+    width: 100%;
+    background: none;
+    text-align: left;
+    color: inherit;
+}
+.label{
+  
+  position: relative;
+    font-size: 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 150px;
+    max-width: 100%;
+    margin: 0;
+    padding: 10px 0;
+}
+.red-color{
+  color: #ec2c2c;
+}
+.display-flex-center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.input-form-button{
+  display: flex;
+    justify-content: center;
+    width: 65%;
+    padding: 15px 0;
+    margin: 25px 40px 20px;
+    border-radius: 6px;
+    background: #00030c;
+    border: none;
+    box-shadow: 0 12px 30px -15px #4c4c4c;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+.blue-text-title{
+  font-size: 1.4em;
+    font-weight: 500;
+    color: blue;
+}
+.pie-container{
+      width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.pie{
+  width: 30%;
+    margin-top: 40px;
+}
+.pie-title{
+  font-size: 1.5em;
+    font-weight: 400;
+    margin-left: 88px;
+    margin-bottom: 20px;
+    color: #0e42d8;
+}
+.icon-visiblity{
+      display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+.icon{
+  padding: 5px 30px 0px 10px;
+}
+.red-text{
+  width: 50px;
+    height: 25px;
+    background: red;
+}
+.green-text{
+  width: 50px;
+    height: 25px;
+    background: green;
+}
+.blue-text{
+  width: 50px;
+    height: 25px;
+    background: blue;
+}
